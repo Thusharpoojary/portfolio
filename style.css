@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: rgb(37, 36, 36);
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 50vw;
+
+}
+ .left h2{
+    
+    color: white;
+    margin-left: 2vw;
+}
+.right{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+.right button{
+    border: none;
+    background: none;
+    padding: 10px;
+    color: white;
+}
+.right button:hover{
+    background-color: blueviolet;
+    width: 7vw;
+    border-radius: 5px ;
+}
+main{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    color: white;
+}
+main .img_div{
+    height: 100%;
+    /* background-color: beige; */
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image{
+    height: 60vh;
+    width: 40vw;
+    border-radius: 50%;
+    /* background:gold; */
+    background-image: url(car1.jpg);
+   
+}
+/* .image img{
+    height: 100%;
+    width: 100;
+    object-fit: fill;
+} */
+.info{
+    
+              
+  
+    height: 100%;
+    width: 50vw;
+    
+}
+.info h6{
+    margin-top: 5vh;
+}
+.info h1{
+    display: inline;
+}
+.red{
+    color: red;
+    margin-right: 10px;
+    
+}
+.info h3{
+    color: red;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+
+.info button{
+    padding: 12px;
+    border: solid red ;
+    border-radius: 5px;
+    margin:  5vh 2vw  5vh 0px;
+    
+    
+}
+.info p{
+    margin:2vh 0;
+}
+ .bg_red{
+    
+    background-color: red;
+   
+}
